@@ -5,7 +5,11 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zbilisim", "zbilisim\zbilisim.csproj", "{C548E68F-360C-4B04-A79C-55D24EFEF60A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbilisim.Core", "zbilisim.Core\zbilisim.Core.csproj", "{4994B23C-20C6-4AE0-B3F5-55BC232A65DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zbilisim.Core", "zbilisim.Core\zbilisim.Core.csproj", "{4994B23C-20C6-4AE0-B3F5-55BC232A65DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbilisim.Model", "zbilisim.Model\zbilisim.Model.csproj", "{39288CB6-6DB6-4F59-ABA2-B72836857F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbilisim.Service", "zbilisim.Service\zbilisim.Service.csproj", "{0476D831-6EF6-4104-9FA3-7284DA67F54A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{4994B23C-20C6-4AE0-B3F5-55BC232A65DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4994B23C-20C6-4AE0-B3F5-55BC232A65DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4994B23C-20C6-4AE0-B3F5-55BC232A65DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39288CB6-6DB6-4F59-ABA2-B72836857F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39288CB6-6DB6-4F59-ABA2-B72836857F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39288CB6-6DB6-4F59-ABA2-B72836857F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39288CB6-6DB6-4F59-ABA2-B72836857F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0476D831-6EF6-4104-9FA3-7284DA67F54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0476D831-6EF6-4104-9FA3-7284DA67F54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0476D831-6EF6-4104-9FA3-7284DA67F54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0476D831-6EF6-4104-9FA3-7284DA67F54A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
