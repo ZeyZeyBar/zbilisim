@@ -8,4 +8,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\zbilisim.Model\zbilisim.Model.csproj" />
+    <ProjectReference Include="..\zbilisim.Service\zbilisim.Service.csproj" />
+  </ItemGroup>
+
 </Project>
