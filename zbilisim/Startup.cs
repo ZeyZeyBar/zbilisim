@@ -1,8 +1,12 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using zbilisim.Core.Services;
+using zbilisim.Model.Context;
+using zbilisim.Service.Base;
 
 namespace zbilisim
 {
@@ -19,6 +23,8 @@ namespace zbilisim
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddDbContext<zbilisimContext>(options => options.UseSqlServer("Server=MSI;Database=zbilisim;Trusted_Connection=true;"));
+            services.AddScoped(typeof(ICoreService<>), typeof(BaseService<>));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -7,7 +7,7 @@ namespace zbilisim.Model.Entities
     {
         public string NameSurname { get; set; }
 
-        [DataType(DataType.EmailAddress)]
+        //[DataType(DataType.EmailAddress)]
         public string Email{ get; set; }
         public string Message { get; set; }
     }

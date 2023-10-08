@@ -6,7 +6,7 @@ namespace zbilisim.Model.Context
 {
     public class zbilisimContext:DbContext
     {
-        public zbilisimContext(DbContextOptions<DbContext> options) : base(options) { }
+        public zbilisimContext(DbContextOptions options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
