@@ -24,7 +24,7 @@ namespace zbilisim
         {
             services.AddMvc();
             services.AddDbContext<zbilisimContext>(options => options.UseSqlServer
-            ("Server=(localdb)\\MSSQLLocalDB;Database=zbilisim;Trusted_Connection=true"));
+            ("Server=94.73.170.76;Database=u1446118_mediato;User Id=u1446118_mediato;Password=BaR97.ZeY9797.BaR;Trusted_Connection=true"));
             //("Server=MSI;Database=zbilisim;Trusted_Connection=true;"));
             services.AddScoped(typeof(ICoreService<>), typeof(BaseService<>));
         }
